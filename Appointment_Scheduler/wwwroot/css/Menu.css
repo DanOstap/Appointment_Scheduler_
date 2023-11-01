@@ -1,0 +1,33 @@
+#MenuBar_Div{
+    bottom: 0;
+        right: 45%;
+        position: fixed;
+        z-index: 1;
+        width: 200px;
+        height: 50px;
+}
+#AddTaskButton{
+    width: 30%;
+    height: 100%;
+    float: left;
+    justify-content: center;
+}
+#AddTaskButton div{ 
+    margin: 0 auto;
+    width: 7%;
+ height: 80%;
+ background-color:black;
+ border-radius: 20%;
+}
+#AddTaskButton div:first-child{ 
+    width: 9%;
+    }
+#AddTaskButton div:last-child{ 
+    position: relative;
+    top: -80%;
+transform: rotate(90deg);
+}
+#MenuBar_Div img{
+    float: right;
+    width: 20%;
+}

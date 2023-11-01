@@ -1,0 +1,33 @@
+#TaskAddController{
+    font-size: 120%;
+    position: fixed;
+    width: 700px;
+    height: 500px;
+    top: 15%;
+    right: 30%;
+    z-index: 1;
+    opacity: 0,5;
+    border: 3px solid black;
+    box-shadow: rgb(86, 78, 78) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background-color: rgba(0, 0, 0, 0.538);
+    color: white;
+}
+.UnVisible,.Visible{
+    transition-delay: 0.25s;
+}
+.UnVisible{
+    opacity: 0;
+}
+.Visible{
+    opacity: 1;
+}
+#TaskAddController input,#TaskAddController label{
+    margin: 10px;
+    position: relative;
+}
+#TaskAddController label :nth-child(2n),#TaskAddController input :nth-child(2n) {
+   float: left;
+}
+#TaskAddController label :nth-child(2n+1),#TaskAddController input :nth-child(2n+1) {
+    float: right;
+}

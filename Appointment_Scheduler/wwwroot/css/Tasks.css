@@ -1,0 +1,44 @@
+﻿
+/* tables */
+#TableList {
+    font-size: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 10fr; /* Определяем две колонки равной ширины */
+    top: 10px;
+    height: 100%;
+    border-spacing: 10px 10px;
+}
+
+.Th_Appointment_clocks, .Th_Appointment_Task {
+    padding: 7.9px;
+    text-align: center;
+    top: 15%;
+    font-size: 130%;
+    height: auto;
+}
+.Th_Appointment_clocks{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.356);
+
+}
+
+.Th_Appointment_Task {
+    border-left: 2px solid rgba(128, 128, 128, 0.404);
+    float: right;
+    opacity: 0.8;
+}
+.Th_Appointment_Task h1{
+    color:blue ;
+}
+.Td_Task, .Td_Clock {
+    display: grid;
+    width: 100%;
+}
+
+.Td_Clock {
+    float: left;
+}
+
+.Td_Task {
+    float: right;
+}
